@@ -16,8 +16,7 @@ const app = new Vue ({
 
         // alert("ciao");
         setInterval(() => {
-            this.counterPhoto += 1;
-            if (this.counterPhoto == (this.photos.length)) this.counterPhoto = 0;
+            this.nextPhoto()
         }, 3000);
     },
 
