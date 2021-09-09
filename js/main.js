@@ -12,7 +12,7 @@ const app = new Vue ({
         ]
     },
 
-    created() {
+    mounted() {
 
         // alert("ciao");
         setInterval(() => {
